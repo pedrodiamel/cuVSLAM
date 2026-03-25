@@ -21,6 +21,7 @@ FetchContent_Declare(
     GIT_REPOSITORY https://github.com/Jiwan/dense_hash_map.git
     GIT_TAG ${DENSE_HASH_MAP_COMMIT}
     GIT_SHALLOW TRUE
+    GIT_SUBMODULES ""
 )
 
 # Fetch without building (header-only library)
